@@ -1,7 +1,8 @@
 # patikadevcssodev
-Patika.dev Eğitimi kapsamında açtığım ilk css ödevi
+Patika.dev Eğitimi kapsamında açtığım ilk css ödevi.
 
-Tarayıcıda görünümü
+**Tarayıcıda görünümü**
+
 ![image](img/wb1.jpg)
 ![image](img/wb2.jpg)
 ![image](img/wb3.jpg)
