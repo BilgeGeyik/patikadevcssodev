@@ -1,0 +1,74 @@
+header{
+    height: 85px;
+    width: 100%;
+    padding-bottom: 3%;            
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:peachpuff;
+}
+
+.intro {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin-top: 30%;
+    margin-left: 65%;
+    text-align: right;
+}
+
+/* viode konumlandırma */
+.video-container{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    overflow: hidden;  
+}
+.video-container video{
+    min-width: 100%;  
+    left: 0;    
+}
+
+.content{
+     z-index: 2;
+}
+.product{
+    display: inline-block;
+    padding: 10px 30px;
+    background: black;
+    color:antiquewhite;
+    border-radius: 5px;
+    border: solid white 1px;
+    margin-top: 25px;
+    opacity: .8;
+    text-decoration: none;
+}
+
+/*Footer Bölümü*/
+.footer{
+    background-color:  #c2c0c0cb;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
